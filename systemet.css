@@ -1,0 +1,100 @@
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+}
+.span-16{
+  grid-column: span 16;
+}
+.span-10{
+  grid-column: span 10;
+}
+.span-18{
+  grid-column: span 18;
+}
+.span-2{
+  grid-column: span 3;
+}
+.usynlig{
+  opacity: 0;
+}
+.edelgass{
+  background-color: #42d7dc;
+}
+.halvmetall{
+  background-color: #5ad3ab;
+}
+.halogen{
+  background-color: #38f066;
+}
+.ikkemetall{
+  background-color: #aff87f;
+}
+.lantanid{
+  background-color: #e49392;
+}
+.acitid{
+  background-color: #ef99f2;
+}
+.overgangsmetall{
+  background-color: #c0ad99;
+}
+.p_overgangsmetall{
+  background-color: #67acbe;
+}
+.alkalisk{
+  background-color: #d3b25a;
+}
+.j_alkalisk{
+  background-color: #eef65e;
+}
+.navn{
+  color: #b6342e;
+  font-weight: bold;
+}
+body{
+  background-color: #e0ce89;
+  margin: 0px;
+}
+footer{
+  background-color: #1565c0;
+  margin-bottom: 0px;
+  padding: 30px;
+  margin-top: 20px;
+}
+nav{
+  background-color: #1565c0;
+  display: flex;
+  margin-bottom: 10px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+}
+nav .active{
+  background-color: #0d47a1;
+}
+nav a:hover:not(.active){
+  background-color: #82b1ff;
+  transition-duration: 0.1s;
+}
+.grunnstoff{
+  border-style: solid;
+  border-radius: 8px;
+  border-color: orange;
+}
+.grunnstoff:hover:not(.span){
+  transform:scale(1.08);
+  opacity: 0.6;
+  transition-duration: 0.1s;
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 24px;
+}
+.navn_list{
+  color: #4689eb;
+  margin-top: 13px;
+}
